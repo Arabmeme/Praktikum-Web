@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 0px;
+}
+body{
+    background-image: url(leo-wieling-bG8U3kaZltE-unsplash.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 200;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.logo img{
+    width: 50px;
+    height: auto;
+    border-radius: 300px;
+}
+.search-bar{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.banner{
+    height: 100px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner h1{
+    font-size: 36px;
+    display: flex;
+}
+.categories{
+    text-align: center;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.categories h2{
+    margin-bottom: 20px;
+}
+.categories div{
+    display: block;
+    margin: 10px;
+    text-align: center;
+}
+.categories div img{
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categories a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;  /* Mengurangi padding agar lebih proporsional */
+    max-width: 1200px;   /* Membatasi lebar maksimum footer */
+    margin: 20px auto;   /* Mengatur margin agar center dan ada jarak dari konten lainnya */
+    border-radius: 10px; /* Mengurangi radius agar lebih elegan */
+    text-align: center;  /* Membuat teks dan elemen di dalamnya center */
+}
+
+.footer p, .footer a {
+    color: white;
+    font-size: 14px;     /* Mengatur ukuran font agar tidak terlalu besar */
+    margin: 5px 0;       /* Memberikan jarak antar elemen */
+}
